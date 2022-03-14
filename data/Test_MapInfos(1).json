@@ -1,0 +1,12 @@
+[
+null,
+{"id":1,"expanded":true,"name":"Outside house","order":1,"parentId":0,"scrollX":1402.2857142857142,"scrollY":780.8571428571428},
+{"id":2,"expanded":true,"name":"Inside House","order":2,"parentId":1,"scrollX":1402.2857142857142,"scrollY":780.8571428571428},
+{"id":3,"expanded":true,"name":"rightpath","order":4,"parentId":0,"scrollX":1402.2857142857142,"scrollY":780.8571428571428},
+{"id":4,"expanded":false,"name":"Inside house2","order":3,"parentId":2,"scrollX":1402.2857142857142,"scrollY":780.8571428571428},
+{"id":5,"expanded":true,"name":"Boulder pass","order":5,"parentId":3,"scrollX":1402.2857142857142,"scrollY":780.8571428571428},
+{"id":6,"expanded":false,"name":"Dungeon","order":7,"parentId":0,"scrollX":1388.5714285714284,"scrollY":4115.142857142857},
+{"id":7,"expanded":false,"name":"forest","order":8,"parentId":0,"scrollX":1388.5714285714284,"scrollY":1158},
+null,
+{"id":9,"expanded":true,"name":"debugroom","order":6,"parentId":0,"scrollX":1402.2857142857142,"scrollY":780.8571428571428}
+]

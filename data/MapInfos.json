@@ -1,12 +1,16 @@
 [
 null,
-{"id":1,"expanded":true,"name":"Outside house","order":1,"parentId":0,"scrollX":818,"scrollY":456.5},
-{"id":2,"expanded":true,"name":"Inside House","order":2,"parentId":1,"scrollX":818,"scrollY":456.5},
-{"id":3,"expanded":true,"name":"rightpath","order":4,"parentId":0,"scrollX":832,"scrollY":640},
-{"id":4,"expanded":false,"name":"Inside house2","order":3,"parentId":2,"scrollX":819,"scrollY":461},
-{"id":5,"expanded":true,"name":"path right right ","order":5,"parentId":3,"scrollX":832,"scrollY":640},
-{"id":6,"expanded":false,"name":"Dungeon","order":7,"parentId":0,"scrollX":1214.6666666666667,"scrollY":4256.666666666667},
-null,
-null,
-{"id":9,"expanded":true,"name":"debugroom","order":6,"parentId":0,"scrollX":1090.6666666666667,"scrollY":608.6666666666666}
+{"id":1,"expanded":false,"name":"Outside house","order":1,"parentId":0,"scrollX":982.8,"scrollY":553.1999999999999},
+{"id":2,"expanded":false,"name":"Inside House","order":2,"parentId":1,"scrollX":832,"scrollY":640},
+{"id":3,"expanded":true,"name":"rightpath","order":4,"parentId":0,"scrollX":982.8,"scrollY":553.1999999999999},
+{"id":4,"expanded":false,"name":"Inside house2","order":3,"parentId":2,"scrollX":1402.2857142857142,"scrollY":780.8571428571428},
+{"id":5,"expanded":true,"name":"Boulder pass","order":5,"parentId":3,"scrollX":982.8,"scrollY":553.1999999999999},
+{"id":6,"expanded":false,"name":"Dungeon","order":12,"parentId":0,"scrollX":1388.3999999999999,"scrollY":4352.4},
+{"id":7,"expanded":false,"name":"forest","order":13,"parentId":0,"scrollX":973.1999999999999,"scrollY":543.6},
+{"id":8,"expanded":true,"name":"A town","order":6,"parentId":5,"scrollX":973.1999999999999,"scrollY":553.1999999999999},
+{"id":9,"expanded":true,"name":"debugroom","order":11,"parentId":0,"scrollX":982.8,"scrollY":553.1999999999999},
+{"id":10,"expanded":false,"name":"inn","order":7,"parentId":8,"scrollX":981.5999999999999,"scrollY":546.6},
+{"id":11,"expanded":false,"name":"weapons","order":8,"parentId":8,"scrollX":982.8,"scrollY":553.1999999999999},
+{"id":12,"expanded":false,"name":"innit","order":9,"parentId":8,"scrollX":982.8,"scrollY":553.1999999999999},
+{"id":13,"expanded":false,"name":"jail","order":10,"parentId":8,"scrollX":982.8,"scrollY":553.1999999999999}
 ]
