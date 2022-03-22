@@ -1,43 +1,40 @@
-
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Chris's Webpage</title>
-    <link rel="stylesheet" href="css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript">
-    var randomNumber = Math.floor(Math.random()* 3);
-    var phrases = [`Hello`,`hi`,`Yo`];
-    console.log(phrases[randomNumber]);
-    </script>
-  </head>
-  <body>
-    <div id="content">
+<head>
+<link rel="stylesheet" href="mystyle.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Final Project Chris Colli</title>
+<style>
+body {
+  font-family: 'Lato', sans-serif;
 
-        <div id="headerBox"
-         <h1>Chris's Webpage </h1>
-        </div>
-      <div class="segment">
-        <img src="img/medMist.png" alt="medmist" class="leftimg">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venena
-          tis aliquam massa, in ultricies lacus lacinia a. Etiam laoreet consect
-          etur dui, non accumsan orci pulvinar ac. Curabitur ac est sed nisl pla
-          cerat facilisis in sed libero. Nam aliquet quam eget lacus ultrices, a
-           viverra augue condimentum. Duis pulvinar, odio et gravida laoreet, le
-           o lacus laoreet orci, sed viverra risus libero vitae eros. Mauris qui
-           s elit nec dui molestie rutrum non vitae eros. Nulla facilisi.</p>
-           <img src="img/wallpaper.jpg" class="rightimg">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venena
-          tis aliquam massa, in ultricies lacus lacinia a. Etiam laoreet consect
-          etur dui, non accumsan orci pulvinar ac. Curabitur ac est sed nisl pla
-          cerat facilisis in sed libero. Nam aliquet quam eget lacus ultrices, a
-           viverra augue condimentum. Duis pulvinar, odio et gravida laoreet, le
-           o lacus laoreet orci, sed viverra risus libero vitae eros. Mauris qui
-           s elit nec dui molestie rutrum non vitae eros. Nulla facilisi.</p>
-      </div>
-      </div>
-      <div class="segment">
-        <h3>Get to School</h3>
-        <a href="game.html">Play My Game!</a>
-      </div>
-  </body>
+}
+</style>
+</head>
+<body>
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="jsFighter.html">JSfighter</a>
+    <a href="game.html">Get To School!</a>
+  </div>
+</div>
+
+<span id="menu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+<h1><strong> Hello :), Wellcome to Chris's Webpage</strong></h1>
+<img src="dog.jpg" alt="dog" id="img">
+<p1>Look at this cute dog, isnt he just amazing. Well this dog is also in my game Get To School and he can be apart of your team! Oh you have friends? PLay JS fighter a turn style fighting game! <strong> You can play them buy clicking in the menu!</strong> Have a Good Day/Night! </p1>
+<script>
+function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}
+</script>
+
+</body>
 </html>
